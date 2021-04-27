@@ -1,0 +1,287 @@
+*
+{
+  margin : 0;
+  padding: 0;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+header
+{
+  background-image: url(cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+  height: 100vh;
+  width: 100%;
+
+}
+.container
+{
+  width: 95%;
+  margin: auto;
+  padding-top: 6vh;
+}
+header li a
+{
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  font-family: "Audiowide", sans-serif;
+}
+header li
+{
+  margin: 15px;
+  display: block;
+  float: right;
+}
+header li a:hover
+{
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+}
+header .logo
+{
+  float: left;
+  border: none;
+}
+header .logo img
+{
+  height: 10vh;
+  width: auto;
+  border-radius: 50%;
+}
+header a
+{
+    text-decoration: none;
+    color: #fff;
+}
+header .container-2
+{
+  font-family: 'Aclonica';
+  display: block;
+  padding-top: 35vh;
+  color: #fff;
+  text-align: center;
+}
+header .container-2 h1
+{
+  font-size: 100px;
+}
+header .container-2 p
+{
+  font-size: 30px;
+}
+
+.about
+{
+  padding: 10vh 0;
+  font-family: sans-serif!important;
+  text-align: center;
+  display: block;
+  background-color: #eeeeee;
+}
+.about hr
+{
+  width: 20%;
+  margin: auto;
+  margin: 13px auto;
+}
+.about h1
+{
+  padding-bottom: 5px;
+}
+.about i
+{
+  font-size: 30px;
+  padding: 10px;
+}
+.about .a
+{
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  padding: 5px 20px;
+}
+.about .a h2
+{
+  padding: 20px;
+}
+.social
+{
+  padding: 12vh 0;
+  font-family: sans-serif!important;
+  text-align: center;
+  display: block;
+  background-color: #ffffff;
+}
+.social h1
+{
+  margin-bottom: 10px;
+}
+.social img
+{
+  height: 15vh;
+  border-radius: 100%;
+  padding: 10px;
+}
+.social .b
+{
+  text-align: center;
+  display: inline-block;
+  width: 25%;
+  padding: 5px 20px;
+}
+.social p
+{
+  font-style: italic;
+  font-family: cursive;
+}
+.social .b h3
+{
+  padding: 20px;
+}
+
+.contact
+{
+  font-family: "Lora" , serif;
+  padding: 5vh;
+  height: 70vh;
+  text-align: center;
+  background-color: #301b3f;
+  color: white;
+
+}
+.contact .text
+{
+  width: 45vw;
+  display: block;
+  float: left;
+}
+.contact .text i
+{
+  font-size: 150px;
+  margin: 10px;
+  padding-bottom: 20px;
+}
+.contact .send
+{
+  width: 45vw;
+  display: block;
+  float: left;
+  margin: auto;
+}
+.contact .text h1
+{
+}
+.contact .text h3
+{
+  width: 30%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+
+
+.contact .send
+{
+  text-align: left;
+  padding-top: 5vh;
+  font-size: 20px;
+}
+.contact .send input
+{
+  margin: 10px auto;
+  height: 35px;
+  width: 70%;
+  border: none;
+}
+.contact .send .message
+{
+  height: 105px;
+}
+.contact .send a
+{
+  font-style: bold;
+  text-decoration: none;
+  padding: 8px 17px;
+  border: 2px solid #e84545;
+  color: white;
+}
+.contact .send a:hover
+{
+  transition: 0.5s;
+  background-color: #e84545;
+  color: black
+}
+
+footer
+{
+  height: 30vh;
+  margin: auto;
+  text-align: center;
+  background-color: #bfcba8;
+}
+footer i
+{
+  display: block;
+  color: #ffff;
+  font-size: 30px;
+  margin: 9vh 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 10px 10px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+footer i:hover
+{
+  background-color: #fff;
+  color: black;
+  transition: 0.5s;
+}
+footer p
+{
+
+  color: #fff;
+  font-family: cursive;
+  font-size: 25px;
+}
+@media screen and (max-width: 850px) {
+  header .container
+  {
+    padding: auto;
+  }
+  header .container h1
+  {
+    font-size: 60px;
+  }
+  header .container p
+  {
+    font-size: 20px;
+  }
+  .about .a , .social .b
+  {
+    width: auto;
+  }
+  .contact
+  {
+    height: 130vh;
+  }
+  .contact .text
+  {
+    width: auto;
+  }
+  .contact .text i
+  {
+    font-size: 100px;
+  }
+  .contact .send
+  {
+    text-align: center;
+    margin: auto;width: 100%;
+  }
+}
